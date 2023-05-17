@@ -10,6 +10,8 @@ body {
 	background-color: #000000;
 	color: #ffffff;
 	padding-top: 5%;
+	/*font-family: 'Merriweather', serif;*/
+	font-family: 'Titillium Web', sans-serif;
 }
 
 .container {
@@ -46,7 +48,7 @@ body {
 hr {
   margin: 30px 30px;
   margin-left: 0px;
-  height:5px;
+  height:-2px;
   width: 100%
   border-width:0;
   background-color:#1c1c1c;
@@ -102,5 +104,9 @@ hr {
 }
 
 .end-part h2{
-	padding-bottom: 40px;
+	/*padding-bottom: 40px;*/
+	border-bottom: 3px solid #717c29;
+}
+.content {
+	padding-top: 20px;
 }
