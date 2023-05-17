@@ -38,7 +38,7 @@ body {
 	min-width: 20%;
 }
 .mid-text {
-	padding-top: 40px;
+	padding-top: 4px;
 	padding-bottom: 30px;
 }
 
@@ -109,4 +109,12 @@ hr {
 }
 .content {
 	padding-top: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .container {
+ 	width: 100%;
+    flex-wrap: wrap;
+  }
 }
