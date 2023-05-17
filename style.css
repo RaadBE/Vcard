@@ -121,7 +121,7 @@ hr {
 
 @media only screen and (max-width: 768px) {
   .mid-text {
- 	padding-top: 32px;
+ 	padding-top:63px;
     padding-bottom: 0px;
     font-size: 1em;
   }
@@ -179,4 +179,4 @@ hr {
    margin-bottom: 4px;
   }
 }
-margin-bottom
+ 
