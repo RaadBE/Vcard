@@ -98,6 +98,13 @@ hr {
 .first em {
 	padding-left: 25px;
 }
+.first {
+	display: flex;
+	flex-direction: column;
+}
+.first img{
+	align-items: flex-start;
+}
 .row-one img:nth-of-type(1){
 	-webkit-filter: invert(100%); /* Safari/Chrome */
     filter: invert(100%);
@@ -116,6 +123,7 @@ hr {
   .container {
  	width: 100%;
     flex-wrap: wrap;
+    height: 31vh;
   }
 }
 
@@ -186,3 +194,8 @@ hr {
   }
 }
  
+@media only screen and (max-width: 768px) {
+  body{
+   max-width: 90%;
+  }
+body 
