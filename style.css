@@ -123,7 +123,22 @@ hr {
   .container {
  	width: 100%;
     flex-wrap: wrap;
-    height: 31vh;
+    height: 26vh;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .container {
+ 	width: 100%;
+    flex-wrap: wrap;
+    height: 26vh;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .mid-text {
+ 	padding-top:63px;
+    padding-bottom: 0px;
+    font-size: 1em;
   }
 }
 
@@ -179,12 +194,13 @@ hr {
   .header-left{
     flex-basis: 30%;
     flex-grow: 0.4;
+
   }
 }
 @media only screen and (max-width: 768px) {
   .header-left{
-    flex-basis: 30%;
-    flex-grow: 1;
+    flex-basis: 19%;
+    flex-grow: 0.4;
   }
 }
 
@@ -196,6 +212,10 @@ hr {
  
 @media only screen and (max-width: 768px) {
   body{
-   max-width: 90%;
+   	max-width: 90%;
+	margin: 0 auto;
+	background-color: #000000;
+	color: #ffffff;
+	padding-top: 5%;
   }
-body 
+
